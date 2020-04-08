@@ -23,8 +23,6 @@ class App extends Component {
       data: fetchedData,
       country: country,
     });
-
-    console.log(country);
   };
   render() {
     const { data, country } = this.state;
